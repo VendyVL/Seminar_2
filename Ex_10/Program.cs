@@ -5,10 +5,7 @@
 
 
 Console.WriteLine("Введите трёхзначное число");
-int num = int.Parse(Console.ReadLine());
+string num = (Console.ReadLine());
 
-string text = num.ToString(); //не пойму как ввести resdLine в формате строки
-Console.WriteLine(num + " -> " + text[1]);
+Console.WriteLine(num + " -> " + num[1]);
 
-int res = (num%100)/10;
-Console.WriteLine(num + " -> " + res);
